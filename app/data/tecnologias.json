@@ -1,0 +1,80 @@
+[
+  {
+    "title": "HTML",
+    "image": "html.svg",
+    "description": "Linguagem de marcação usada para estruturar páginas web.",
+    "rating": 4
+  },
+  {
+    "title": "CSS",
+    "image": "css.svg",
+    "description": "Linguagem de estilos responsável pela aparência das páginas web.",
+    "rating": 4
+  },
+  {
+    "title": "Tailwind CSS",
+    "image": "tailwind.svg",
+    "description": "Framework CSS utilitária que permite criar interfaces rapidamente.",
+    "rating": 5
+  },
+  {
+    "title": "JavaScript",
+    "image": "javascript.svg",
+    "description": "Linguagem de programação que adiciona interatividade às páginas web.",
+    "rating": 5
+  },
+  {
+    "title": "TypeScript",
+    "image": "typescript.svg",
+    "description": "Superset do JavaScript que adiciona tipagem estática ao código.",
+    "rating": 5
+  },
+  {
+    "title": "JSON",
+    "image": "json.svg",
+    "description": "Formato de dados leve usado para troca de informação entre sistemas.",
+    "rating": 4
+  },
+  {
+    "title": "API RESTful",
+    "image": "rest.svg",
+    "description": "Estilo arquitetural para criar serviços de comunicação entre aplicações.",
+    "rating": 5
+  },
+  {
+    "title": "Swagger",
+    "image": "swagger.svg",
+    "description": "Ferramenta para documentar e testar APIs.",
+    "rating": 4
+  },
+  {
+    "title": "GitHub",
+    "image": "github.svg",
+    "description": "Plataforma de versionamento e colaboração com Git.",
+    "rating": 5
+  },
+  {
+    "title": "Codespaces",
+    "image": "codespaces.svg",
+    "description": "Ambiente de desenvolvimento na cloud integrado com GitHub.",
+    "rating": 4
+  },
+  {
+    "title": "React.js",
+    "image": "react.svg",
+    "description": "Biblioteca JavaScript para criar interfaces de utilizador.",
+    "rating": 5
+  },
+  {
+    "title": "Next.js",
+    "image": "next.svg",
+    "description": "Framework React com rendering otimizado e funcionalidades avançadas.",
+    "rating": 5
+  },
+  {
+    "title": "Vercel",
+    "image": "vercel.svg",
+    "description": "Plataforma para deploy rápido de aplicações front-end.",
+    "rating": 5
+  }
+]
