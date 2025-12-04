@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
+import Relogio from "@/componentes/Relogio";
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -36,6 +38,11 @@ export default function RootLayout({
             <Link href="/caracteristicas">Caracteristicas </Link>
             <Link href="/tecnologias">Tecnologias</Link>
             <Link href="/projetos">Projetos</Link>
+            <Link href="/contador">Contador</Link>
+            <Link href="/input">Input</Link>
+            
+
+
 
 
           </nav>
@@ -45,7 +52,15 @@ export default function RootLayout({
           {children}
         </main>
         
-        <footer>{data.getFullYear()}</footer>
+        <footer>{data.getFullYear()}
+          <footer className="text-xs text-slate-600 mt-2 flex gap-3 items-center">
+  <span>{data.getFullYear()}</span>
+  <Relogio />
+</footer>
+
+
+
+        </footer>
 
       </body>
     </html>

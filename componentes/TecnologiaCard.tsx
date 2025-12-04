@@ -1,4 +1,6 @@
 import Image from "next/image";
+import ContadorPersonalizado from "@/componentes/contadorPersonalizado";
+
 
 interface TecnologiaCardProps {
   title: string;
@@ -14,7 +16,10 @@ export default function TecnologiaCard({ title, image }: TecnologiaCardProps) {
         width={64}
         height={64}
       />
-      <p className="mt-2 text-sm font-medium text-center">{title}</p>
+      <p className="mt-2 text-sm font-medium text-center">{title}
+        <ContadorPersonalizado title={title} />
+
+      </p>
     </div>
   );
 }
