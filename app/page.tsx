@@ -1,5 +1,6 @@
 import MagiaDoJSX from "@/componentes/MagiaDoJSX";
 
+
 export default function page() {
   return (
     <div>
