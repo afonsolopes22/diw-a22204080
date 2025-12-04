@@ -1,11 +1,11 @@
-import MagiaDoJSX from "@/componentes/MagiaDoJSX/MagiaDoJSX"
+import MagiaDoJSX from "@/componentes/MagiaDoJSX";
 
 export default function page() {
-return(
-<div>
-  <h2>Interfaces Modernos</h2>
-  <p>Bem vindo à minha app em React e Next.js .</p>
-  <MagiaDoJSX/>
-</div>)
+  return (
+    <div>
+      <h2>Interfaces Modernos</h2>
+      <p>Bem vindo à minha app em React e Next.js .</p>
+      <MagiaDoJSX />
+    </div>
+  );
 }
-
