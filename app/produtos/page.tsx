@@ -110,6 +110,7 @@ export default function ProdutosPage() {
       setIsBuying(false);
     }
   }
+  
 
   const total = useMemo(() => {
   return cart.reduce((sum, p) => sum + Number(p.price), 0);
