@@ -15,9 +15,11 @@ export default function TecnologiaCard({ title, image }: TecnologiaCardProps) {
         alt={title}
         width={64}
         height={64}
+        
       />
       <p className="mt-2 text-sm font-medium text-center">{title}
-        <ContadorPersonalizado title={title} />
+        <ContadorPersonalizado title={title}
+         />
 
       </p>
     </div>
