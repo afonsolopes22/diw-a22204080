@@ -1,0 +1,8 @@
+[
+  { "id": "pt", "nome": "Portugal", "area": 92212, "populacao": 10305564 },
+  { "id": "es", "nome": "Espanha", "area": 505990, "populacao": 47329000 },
+  { "id": "fr", "nome": "França", "area": 551695, "populacao": 67200000 },
+  { "id": "de", "nome": "Alemanha", "area": 357022, "populacao": 83190556 },
+  { "id": "it", "nome": "Itália", "area": 301340, "populacao": 60317116 },
+  { "id": "br", "nome": "Brasil", "area": 8515767, "populacao": 213993437 }
+]

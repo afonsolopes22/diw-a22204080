@@ -4,6 +4,7 @@ import { useEffect, useMemo, useState } from "react";
 import useSWR from "swr";
 import type { Product } from "@/models/interfaces";
 import ProdutoCard from "@/componentes/ProdutoCard";
+import LastViewed from "@/componentes/LastViewed";
 
 const API = "https://deisishop.pythonanywhere.com";
 const CART_KEY = "cart";
@@ -150,6 +151,8 @@ export default function ProdutosPage() {
   return (
     <>
       <h2>Produtos</h2>
+
+      <LastViewed />
 
       {/* Pesquisa */}
       <input
